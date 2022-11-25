@@ -8,6 +8,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #fafafa;
+    position: relative;
 }
 
 .header {
@@ -16,11 +17,16 @@ body {
     background-color: #ffffff;
     box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.23);
     position: sticky;
-    width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.content {
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 .sobre-nos {
@@ -56,8 +62,8 @@ body {
     text-decoration: none;
     color: #000000;
     transition: color 0.15s,
-     opacity 0.15s;
-     font-size: 15px;
+    opacity 0.15s;
+    font-size: 15px;
 }
 
 .mytransport:hover {
@@ -95,9 +101,8 @@ body {
 .right-section {
     background-color: white;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    margin-top: 4px;
+    margin-top: 10px;
     gap: 15px;
 }
 
@@ -110,15 +115,278 @@ body {
 
 .app-pic {
     width: 600px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.TEXTOtodo1 {
+    display: inline;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.titulo1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.titulo1-2 {
+    color: #ffb800;
+    font-weight: 600;
+}
+
+.texto1 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.app-mobile {
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.instale {
+    margin-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #ffb800;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.icons {
+    padding-top: 10px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.apple-icon {
+    width: 50px;
+    margin-right: 15px;
+    transition: opacity 0.15s;
+}
+
+.apple-icon:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+
+.playstore-icon {
+    width: 50px;
+    margin-left: 15px;
+    transition: opacity 0.15s;
+}
+
+.playstore-icon:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.experimente {
+    font-size: 24px;
+    padding-top: 24px;
+    color: #ffb800;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.porque-usar-o-myroad {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 120px;
     margin-top: 100px;
 }
 
-.Slogan {
+.titulo-porque {
     font-size: 40px;
+    font-weight: 600;
+    font-weight: medium;
 }
 
-.Slogan2 {
+.mulherPic {
+    width: 450px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.palavra-myroad {
     color: #ffb800;
-    font-weight: normal;
 }
 
+.gps-tracking {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 40px;
+    background-color: #ffb800;
+    color: black;
+    text-decoration: underline;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.gps-tracking:hover {
+    cursor: pointer;
+}
+
+.gps-tracking:active {
+    opacity: 0.7;
+}
+
+.texto-gps {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.tipos-de-trajetos {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 40px;
+    background-color: #ffb800;
+    color: black;
+    text-decoration: underline;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: auto;
+}
+
+.tipos-de-trajetos:hover {
+    cursor: pointer;
+}
+
+.tipos-de-trajetos:active {
+    opacity: 0.7;
+}
+
+.texto-tipos-de-trajetos {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.mywallet2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 40px;
+    background-color: #ffb800;
+    color: black;
+    text-decoration: underline;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.mywallet2:hover {
+    cursor: pointer;
+}
+
+.mywallet2:active {
+    opacity: 0.7;
+}
+
+.texto-mywallet2 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.olas-somos-os-100migas {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team-logo {
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 120px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.TEXTOtodo3 {
+    display: inline;
+    align-items: center;
+    margin-left: 150px;
+    margin-right:150px;
+}
+
+.titulo-100migas {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.palavra-100migas {
+    color: #ffb800;
+}
+
+.texto-100migas {
+    margin-top: 20px;
+    font-size: 20px;
+    padding-bottom: 200px;
+}
+
+.rodape {
+    color: #ffb800;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.23);
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    position: absolute;
+    width: 98.9vw;
+    left: 0;
+    bottom: 0;
+}
+
+.rodapeleft {
+    justify-content: left;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.rodaperight {
+    text-align: center; 
+    font-size: 15px;
+    padding-right: 20px;
+}
+
+.rodape2:hover {
+    cursor: pointer;
+}
+
+.contacts {
+    display: block;
+    text-decoration: none;
+    color: #ffb800;
+    font-size: 15px;
+}
+
+.contacts:active {
+    opacity: 0.7;
+}
+
+.FAQ {
+    display: block;
+    color: #ffb800;
+    font-size: 15px;
+}
