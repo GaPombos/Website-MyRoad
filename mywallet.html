@@ -1,33 +1,198 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>MyWallet</title>
-        <link rel="stylesheet" href="mywallet.css" />
-        <link rel="icon" type="favicon.ico" href="C:\Users\andre\OneDrive\Ambiente de Trabalho\Diogo\ISEP\Disciplinas\1º semestre\LAPR1\MyRoad\Icons\racing.png">
-    </head>
-    <body>
-        <header class="header">
-            <a href="file:///C:/Users/andre/OneDrive/Ambiente%20de%20Trabalho/Diogo/ISEP/Disciplinas/1%C2%BA%20semestre/LAPR1/MyRoad/index.html">
-                <div class="left-section">
-                    <img class="logo" src="Logo_100Migas.png">
-                </div>    
-            </a>
-            <div class="right-section">
-                <a class="sobre-nos" title="Sobre Nós" href="sobrenos.html">Sobre N&oacute;s</a>
-                <a class="mytransport" title="MyTransport" href="mytransport.html">MyTransport</a>
-                <a class="mywallet" title="MyWallet" href="mywallet.html">MyWallet</a>
-                <a class="myaccount" title="MyAccount" href="myaccount.html">MyAccount</a>
-            </div>
-        </header>
-    </body>
-    <footer class="rodape">
-        <div class="rodapeleft">
-            © 2022 MyRoad Inc. 
-            Todos os direitos reservados
-        </div>
-        <div class="rodaperight">
-            <a class="contacts" title="Contacts" href="contacts.html">Contacts</a>
-            <a class="FAQ" title="FAQ" href="faq.html">FAQ</a>
-        </div>
-    </footer>
+<head>
+  <title>MyWallet</title>
+  <link rel="stylesheet" href="mywallet.css" />
+  <link rel="icon" type="favicon.ico" href="C:\Users\andre\OneDrive\Ambiente de Trabalho\Diogo\ISEP\Disciplinas\1º semestre\LAPR1\MyRoad\Icons\racing.png">
+</head>
+<body>
+<header class="header">
+  <a href="file:///C:/Users/andre/OneDrive/Ambiente%20de%20Trabalho/Diogo/ISEP/Disciplinas/1%C2%BA%20semestre/LAPR1/MyRoad/index.html">
+    <div class="left-section">
+      <img class="logo" src="Logo_100Migas.png">
+    </div>
+  </a>
+  <div class="right-section">
+    <a class="sobre-nos" title="Sobre Nós" href="sobrenos.html">Sobre N&oacute;s</a>
+    <a class="mytransport" title="MyTransport" href="mytransport.html">MyTransport</a>
+    <a class="mywallet" title="MyWallet" href="mywallet.html">MyWallet</a>
+    <a class="myaccount" title="MyAccount" href="myaccount.html">MyAccount</a>
+  </div>
+</header>
+<div class = "container">
+  <div class ="coluna1">
+    <p class = "carteira">
+      <strong>Carteira</strong>
+
+    </p>
+
+    <button class = "saldo">
+      Consultar saldo
+    </button>
+    <p class ="ppasse" >
+      <strong>Passe</strong>
+
+    </p>
+
+    <button class = "passe">
+      Renovar passe
+    </button>
+    <p class = "bilheteira">
+
+      <strong>Bilheteira</strong>
+
+
+    </p>
+    <button class = "bilhete">
+      Comprar bilhetes
+    </button>
+  </div>
+  <div class = "coluna2">
+    <p>
+      <strong>Ajuda a reduzir a fraude.</strong>
+    </p>
+    <p class = "dados">
+      Os dados armazenados na MyWallet s&atilde;o criptografados,
+      o que significa que os n&uacute;meros reais da conta do seu
+      cart&atilde;o n&atilde;o s&atilde;o transmitidos durante o
+      pagamento.
+
+    <p>
+      <strong> Compras online a partir de qualquer s&iacute;teo.</strong>
+    </p>
+    <p class = "compras">
+      Todas as opera&ccedil;&otilde;es que desejar efetuar ser&atilde;o poss&iacute;veis fazer atrav&eacute;s
+      do seu smartphone, sem necessidade de se deslocar a um local f&iacute;sico.
+
+    </p>
+    <p>
+      <strong> Recompensas pela utiliza&ccedil;&atilde;o.</strong>
+    </p>
+    <p class ="pontos">
+      Acumule pontos e reclame reconpensas exclusivas com a
+      utiliza&ccedil;&atilde;o da nossa aplica&ccedil;&atilde;o!
+    </p>
+
+
+  </div>
+</div>
+
+
+
+
+
+<style>
+  .saldo
+  {
+    font-size: 20px;
+    background-color: #ffb800;
+    border-radius: 20px;
+    padding: 7px;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 15px;
+    border: none;
+  }
+  .saldo:hover
+  {
+    opacity: 80%;
+    font-weight: bold;
+    font-family: default;
+    font-size: 19px;
+  }
+  .bilhete
+  {
+    font-size: 20px;
+    background-color: #ffb800;
+    border-radius: 20px;
+    padding: 7px;
+    cursor: pointer;
+    border: none;
+    width: 200px;
+    border-radius: 15px;
+
+  }
+  .bilhete:hover
+  {
+    opacity: 80%;
+    font-weight: bold;
+    font-family: default;
+    font-size: 19px;
+  }
+  .passe  {
+    font-size: 20px;
+    background-color: #ffb800;
+    border-radius: 20px;
+    padding: 7px;
+    cursor: pointer;
+    border: none;
+
+    width: 200px;
+    border-radius: 15px;
+  }
+  .passe:hover
+  {
+    opacity: 80%;
+    font-weight: bold;
+    font-family: default;
+    font-size: 19px;
+  }
+  .ppasse
+  {
+    font-size: 30px;
+    font-family: default;
+    border-bottom: 0px;
+    margin-bottom: 10px;
+
+  }
+  .bilheteira
+  {
+    font-size: 30px;
+    font-family: default;
+    border-bottom: 0px;
+    margin-bottom: 10px;
+  }
+  .carteira
+  {
+    font-size: 30px;
+    font-family: default;
+    border-bottom: 0px;
+    margin-bottom: 10px;
+  }
+  .dados
+  {
+    width: 370px;
+  }
+  .pontos
+  {
+    width: 370px;
+  }
+  .compras
+  {
+    width: 370px;
+  }
+  .coluna2
+  {
+    margin-top: 30px;
+    margin-left: 100px;
+    font-size: 16px;
+  }
+  .container
+  {
+    display: flex;
+  }
+</style>
+
+
+</body>
+<footer class="rodape">
+  <div class="rodapeleft">
+    © 2022 MyRoad Inc.
+    Todos os direitos reservados
+  </div>
+  <div class="rodaperight">
+    <a class="contacts" title="Contacts" href="contacts.html">Contacts</a>
+    <a class="FAQ" title="FAQ" href="faq.html">FAQ</a>
+  </div>
+</footer>
 </html>
