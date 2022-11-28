@@ -8,6 +8,12 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #fafafa;
+    position: relative;
+}
+
+.content {
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 .header {
@@ -111,18 +117,22 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 15px;
+    position: relative;
+    width: 100vw;
+    left: 0;
+    bottom: 0;
 }
 
 .rodapeleft {
     justify-content: left;
     font-size: 15px;
-    margin-left: 20px;
+    padding-left: 20px;
 }
 
 .rodaperight {
     text-align: center; 
     font-size: 15px;
-    margin-right: 20px;
+    padding-right: 20px;
 }
 
 .rodape2:hover {
@@ -143,5 +153,6 @@ body {
 .FAQ {
     display: block;
     color: #ffb800;
+    font-weight: 600;
     font-size: 15px;
 }

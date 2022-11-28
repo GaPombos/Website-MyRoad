@@ -8,6 +8,12 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #fafafa;
+    position: relative;
+}
+
+.content {
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 .header {
@@ -101,6 +107,64 @@ body {
     gap: 15px;
 }
 
+.texto-slogan {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    width: 100%;
+}
+
+.titulo {
+    font-size: 35px;
+    color: #ffb800;
+    font-weight: 550;
+    padding-bottom: 30px;
+}
+
+.texto {
+    font-size: 20px;
+    width: 100%;
+}
+
+.texto-2ºparagrafo {
+    padding-top: 40px;
+    padding-bottom: 180px;
+}
+
+.slogan-logo {
+    width: 80%;
+    align-items: center;
+}
+
+.slogan-logo-img {
+    width: 100%;
+}
+
+.contactar-sobrenos {
+    background-color: #ffb800;
+    padding: 10px;
+    border: 0;
+    border-radius: 25px;
+    font-size: 20px;
+    transition: background-color 0.15s opacity 0.15s;
+}
+
+.contactar {
+    text-decoration: none;
+    color: #fafafa;
+    font-weight: 600;
+}
+
+.contactar-sobrenos:hover {
+    background-color: #ffb700d4;
+    cursor: pointer;
+}
+
+.contactar-sobrenos:active {
+    opacity: 0.7;
+}
+
 .rodape {
     color: #ffb800;
     display: flex;
@@ -108,22 +172,24 @@ body {
     justify-content: space-between;
     background-color: #ffffff;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.23);
-    box-sizing: border-box;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 15px;
+    position: static;
+    width: 100%;
+    bottom: 0;
 }
 
 .rodapeleft {
     justify-content: left;
     font-size: 15px;
-    margin-left: 20px;
+    padding-left: 20px;
 }
 
 .rodaperight {
     text-align: center; 
     font-size: 15px;
-    margin-right: 20px;
+    padding-right: 20px;
 }
 
 .rodape2:hover {
