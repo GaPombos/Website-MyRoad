@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fafafa;
+    position: relative;
+}
+
+.content {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.header {
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.23);
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.sobre-nos {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.15s,
+    opacity 0.15s;
+    font-size: 15px;
+}
+
+.sobre-nos:hover {
+    cursor: pointer;
+    color: #ffb800;
+}
+
+.mywallet {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.15s, opacity 0.15s;
+    font-size: 15px;
+}
+
+.mywallet:hover {
+    cursor: pointer;
+    color: #ffb800;
+}
+
+.mywallet:active {
+    opacity: 0.7;
+}
+
+.mytransport {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.15s,
+    opacity 0.15s;
+    font-size: 15px;
+}
+
+.mytransport:hover {
+    cursor: pointer;
+    color: #ffb800;
+}
+
+.mywallet:active {
+    opacity: 0.7;
+}
+
+.myaccount {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.15s, opacity 0.15s;
+    font-size: 15px;
+}
+
+.myaccount:hover {
+    cursor: pointer;
+    color: #ffb800;
+}
+
+.myaccount:active {
+    opacity: 0.7;
+}
+
+.left-section {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.right-section {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    gap: 15px;
+}
+
+.app {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app-pic {
+    width: 600px;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+.TEXTOtodo1 {
+    display: inline;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.titulo1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.titulo1-2 {
+    color: #ffb800;
+    font-weight: 600;
+}
+
+.texto1 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.app-mobile {
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.instale {
+    margin-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #ffb800;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.icons {
+    padding-top: 10px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.apple-icon {
+    width: 50px;
+    margin-right: 15px;
+    transition: opacity 0.15s;
+}
+
+.apple-icon:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+
+.playstore-icon {
+    width: 50px;
+    margin-left: 15px;
+    transition: opacity 0.15s;
+}
+
+.playstore-icon:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.experimente {
+    font-size: 24px;
+    padding-top: 24px;
+    color: #ffb800;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.porque-usar-o-myroad {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 120px;
+    margin-top: 100px;
+}
+
+.titulo-porque {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.mulherPic {
+    width: 450px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.palavra-myroad {
+    color: #ffb800;
+}
+
+.gps-tracking {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 40px;
+    background-color: #ffb800;
+    color: black;
+    text-decoration: underline;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.gps-tracking:hover {
+    cursor: pointer;
+}
+
+.gps-tracking:active {
+    opacity: 0.7;
+}
+
+.texto-gps {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.tipos-de-trajetos {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 40px;
+    background-color: #ffb800;
+    color: black;
+    text-decoration: underline;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: auto;
+}
+
+.tipos-de-trajetos:hover {
+    cursor: pointer;
+}
+
+.tipos-de-trajetos:active {
+    opacity: 0.7;
+}
+
+.texto-tipos-de-trajetos {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.mywallet2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 40px;
+    background-color: #ffb800;
+    color: black;
+    text-decoration: underline;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.mywallet2:hover {
+    cursor: pointer;
+}
+
+.mywallet2:active {
+    opacity: 0.7;
+}
+
+.texto-mywallet2 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.olas-somos-os-100migas {
+    display: inline-flex;
+}
+
+.team-logo {
+    width: 350px;
+}
+
+.TEXTOtodo3 {
+    box-sizing: border-box;
+}
+
+.titulo-100migas {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.palavra-100migas {
+    color: #ffb800;
+}
+
+.texto-100migas {
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 200px;
+}
+
+.texto-100migas-1 {
+    padding-bottom: 20px;
+}
+
+.texto-100migas-2 {
+    padding-bottom: 20px;
+}
+
+.rodape {
+    color: #ffb800;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.23);
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    position: absolute;
+    width: 98.9vw;
+    left: 0;
+    bottom: 0;
+}
+
+.rodapeleft {
+    justify-content: left;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.rodaperight {
+    text-align: center; 
+    font-size: 15px;
+    padding-right: 20px;
+}
+
+.rodape2:hover {
+    cursor: pointer;
+}
+
+.contacts {
+    display: block;
+    text-decoration: none;
+    color: #ffb800;
+    font-size: 15px;
+}
+
+.contacts:active {
+    opacity: 0.7;
+}
+
+.FAQ {
+    display: block;
+    color: #ffb800;
+    font-size: 15px;
+}
