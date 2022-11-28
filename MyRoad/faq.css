@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fafafa;
+    position: relative;
+}
+
+.content {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.header {
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.23);
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.sobre-nos {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.15s,
+    opacity 0.15s;
+    font-size: 15px;
+}
+
+.sobre-nos:hover {
+    cursor: pointer;
+    color: #ffb800;
+}
+
+.mywallet {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.15s, opacity 0.15s;
+    font-size: 15px;
+}
+
+.mywallet:hover {
+    cursor: pointer;
+    color: #ffb800;
+}
+
+.mywallet:active {
+    opacity: 0.7;
+}
+
+.mytransport {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.15s,
+    opacity 0.15s;
+    font-size: 15px;
+}
+
+.mytransport:hover {
+    cursor: pointer;
+    color: #ffb800;
+}
+
+.mywallet:active {
+    opacity: 0.7;
+}
+
+.myaccount {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.15s, opacity 0.15s;
+    font-size: 15px;
+}
+
+.myaccount:hover {
+    cursor: pointer;
+    color: #ffb800;
+}
+
+.myaccount:active {
+    opacity: 0.7;
+}
+
+.left-section {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.right-section {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    gap: 15px;
+}
+
+.rodape {
+    color: #ffb800;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.23);
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    position: relative;
+    width: 100vw;
+    left: 0;
+    bottom: 0;
+}
+
+.rodapeleft {
+    justify-content: left;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.rodaperight {
+    text-align: center; 
+    font-size: 15px;
+    padding-right: 20px;
+}
+
+.rodape2:hover {
+    cursor: pointer;
+}
+
+.contacts {
+    display: block;
+    text-decoration: none;
+    color: #ffb800;
+    font-size: 15px;
+}
+
+.contacts:active {
+    opacity: 0.7;
+}
+
+.FAQ {
+    display: block;
+    color: #ffb800;
+    font-weight: 600;
+    font-size: 15px;
+}
