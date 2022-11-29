@@ -134,6 +134,8 @@ body {
 
 .slogan-logo {
     width: 80%;
+    justify-content: center;
+    text-align: center;
     align-items: center;
 }
 
