@@ -11,8 +11,14 @@ body {
 }
 
 .content {
+    margin-top: 68px;
     margin-left: 90px;
     margin-right: 90px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+    align-items: center;
 }
 
 .header {
@@ -106,6 +112,70 @@ body {
     gap: 15px;
 }
 
+.checkbox {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.partida {
+    margin-bottom: 20px;
+}
+
+.chegada {
+    margin-bottom: 20px;
+}
+
+.mapa {
+    border: solid 20px #ffb800;
+    border-radius: 40px;
+}
+
+.data {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.mapa iframe{
+    border-radius: 20px;
+}
+
+.hora {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.botao-pesquisar {
+    text-align: center;
+}
+
+.pesquisar {
+    background-color: #ffb800;
+    padding: 5px;
+    width: 150px;
+    border: 0;
+    border-radius: 25px;
+    font-size: 20px;
+    transition: background-color 0.15s opacity 0.15s;
+    text-align: center;
+}
+
+.pesquisar-palavra {
+    color: #fafafa;
+    font-weight: 500;
+}
+
+.pesquisar:hover {
+    background-color: #ffb700d4;
+    cursor: pointer;
+}
+
+.pesquisar:active {
+    opacity: 0.7;
+}
+
+
 .rodape {
     color: #ffb800;
     display: flex;
@@ -118,7 +188,7 @@ body {
     padding-bottom: 20px;
     font-size: 15px;
     position: relative;
-    width: 100vw;
+    width: 100%;
     left: 0;
     bottom: 0;
 }

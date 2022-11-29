@@ -21,7 +21,54 @@
             </div>
         </header>
         <div class="content">
-
+            <div class="caixas-de-texto">
+                <fieldset class="checkbox">
+                    <legend>Escolha o(s) transporte(s) que deseja utilizar:</legend>
+                    <div>
+                      <input type="checkbox" id="scales" name="scales" checked>
+                      <label for="scales">Autocarro</label>
+                    </div>
+                    <div>
+                      <input type="checkbox" id="horns" name="horns">
+                      <label for="horns">Metro</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="horns" name="horns">
+                        <label for="horns">Comboio</label>
+                      </div>
+                </fieldset>
+                <div class="partida">
+                    <label>Local de partida:</label>
+                    <textarea placeholder="Coloque aqui o seu local de partida"></textarea>    
+                </div>
+                <div class="chegada">
+                    <label>Local de chegada:</label>
+                    <textarea placeholder="Coloque aqui o seu local de chegada"></textarea> 
+                </div>   
+                <div class="data">
+                    <p>
+                        Data de partida:
+                    </p> 
+                    <input type="date">   
+                </div> 
+                <div class="hora">
+                    <p>
+                        Hora de partida:
+                    </p>    
+                    <input type="time" id="appt" name="appt"
+                    min="00:01" max="23:59" required>               
+                 </div>
+                 <div class="botao-pesquisar">
+                    <button class="pesquisar">
+                        <p class="pesquisar-palavra">
+                            Pesquisar
+                        </p>
+                     </button>
+                 </div>
+            </div>
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48059.75693472446!2d-8.656973104866614!3d41.16213764693072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2465abc4e153c1%3A0xa648d95640b114bc!2sPorto!5e0!3m2!1spt-PT!2spt!4v1669717967773!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
     </body>
     <footer class="rodape">

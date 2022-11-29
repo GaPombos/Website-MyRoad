@@ -110,7 +110,6 @@ body {
 .texto-slogan {
     margin-top: 100px;
     display: flex;
-    align-items: center;
     gap: 70px;
     width: 100%;
 }

@@ -301,8 +301,10 @@ body {
     margin-top: 15px;
 }
 
-.olas-somos-os-100migas {
-    display: inline-flex;
+.ola-somos-os-100migas {
+    margin-top: 100px;
+    display: flex;
+    gap: 120px;
 }
 
 .team-logo {
