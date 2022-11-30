@@ -101,6 +101,77 @@ body {
     gap: 15px;
 }
 
+.conteudo {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.registo {
+    background-color:limegreen;    
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 15px;
+    width: 650px;
+    height: 500px;
+}
+
+.titulo1 {
+    margin-top: 25px;
+}
+
+.nome {
+    font-size: 30px;
+    margin-top: 25px;
+    width: 450px;
+    background-color: limegreen;
+    border-color: black;
+}
+
+.email {
+    font-size: 30px;
+    margin-top: 15px;
+    width: 450px;
+    background-color: limegreen;
+    border-color: black;
+}
+
+.telemovel {
+    font-size: 30px;
+    margin-top: 15px;
+    width: 450px;
+    background-color: limegreen;
+    border-color: black;
+}
+
+.password {
+    font-size: 30px;
+    margin-top: 15px;
+    width: 450px;
+    background-color: limegreen;
+    border-color: black;
+}
+
+.iniciotexto1 {
+    font-size: 20px;
+}
+
+.list1 {
+    
+}
+
+.vantagens {
+    background-color:blue;
+    margin-top: 50px;    
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 15px;
+    width: 650px;
+    height: 500px;
+}
 .rodape {
     color: #ffb800;
     display: flex;
