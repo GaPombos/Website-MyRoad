@@ -163,6 +163,7 @@ margin-right: 90px;
   border-radius: 25px;
   font-size: 20px;
   transition: background-color 0.15s opacity 0.15s;
+  margin-bottom: 20px;
 }
 
 .saldo:hover {
@@ -199,6 +200,7 @@ margin-right: 90px;
   border-radius: 25px;
   font-size: 20px;
   transition: background-color 0.15s opacity 0.15s;
+  margin-bottom: 20px;
 }
 
 .passe:hover{
