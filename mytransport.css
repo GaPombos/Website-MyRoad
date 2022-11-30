@@ -11,12 +11,12 @@ body {
 }
 
 .content {
-    margin-top: 68px;
+    margin-top: 67px;
     margin-left: 90px;
     margin-right: 90px;
     margin-bottom: 20px;
     display: flex;
-    gap: 300px;
+    gap: 250px;
     justify-content: center;
     align-items: center;
 }
@@ -114,15 +114,25 @@ body {
 
 .checkbox {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.titulo-checkbox-resto {
+    color: #ffb800;
+    font-size: 18px;
 }
 
 .partida {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .chegada {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.caixa-de-texto {
+    border-color: #ffb800;
+    border-style: solid;
 }
 
 .mapa {
@@ -133,7 +143,7 @@ body {
 .data {
     display: flex;
     gap: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .mapa iframe{
@@ -143,7 +153,12 @@ body {
 .hora {
     display: flex;
     gap: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+}
+
+.tipos-de-trajeto {
+    width: 100%;
+    margin-bottom: 50px;
 }
 
 .botao-pesquisar {
@@ -152,8 +167,10 @@ body {
 
 .pesquisar {
     background-color: #ffb800;
-    padding: 5px;
+    padding: 10px;
     width: 150px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     border: 0;
     border-radius: 25px;
     font-size: 20px;

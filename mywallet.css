@@ -1,255 +1,287 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #fafafa;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fafafa;
 }
 
 .content {
-  margin-left: 90px;
-  margin-right: 90px;
+margin-left: 90px;
+margin-right: 90px;
 }
 
 .header {
-    top: 0;
-    left: 0;
-    background-color: #ffffff;
-    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.23);
-    position: sticky;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.23);
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .sobre-nos {
-    text-decoration: none;
-    color: #000000;
-    transition: color 0.15s,
-    opacity 0.15s;
-    font-size: 15px;
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.15s,
+  opacity 0.15s;
+  font-size: 15px;
 }
 
 .sobre-nos:hover {
-    cursor: pointer;
-    color: #ffb800;
+  cursor: pointer;
+  color: #ffb800;
 }
 
 .mywallet {
-    text-decoration: none;
-    color: #ffb800;
-    transition: color 0.15s, opacity 0.15s;
-    font-size: 15px;
-    font-weight: 600;
+  text-decoration: none;
+  color: #ffb800;
+  transition: color 0.15s, opacity 0.15s;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .mywallet:hover {
-    cursor: pointer;
-    color: #ffb800;
+  cursor: pointer;
+  color: #ffb800;
 }
 
 .mywallet:active {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .mytransport {
-    text-decoration: none;
-    color: #000000;
-    transition: color 0.15s,
-    opacity 0.15s;
-    font-size: 15px;
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.15s,
+  opacity 0.15s;
+  font-size: 15px;
 }
 
 .mytransport:hover {
-    cursor: pointer;
-    color: #ffb800;
+  cursor: pointer;
+  color: #ffb800;
 }
 
 .mywallet:active {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .myaccount {
-    text-decoration: none;
-    color: #000000;
-    transition: color 0.15s, opacity 0.15s;
-    font-size: 15px;
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.15s, opacity 0.15s;
+  font-size: 15px;
 }
 
 .myaccount:hover {
-    cursor: pointer;
-    color: #ffb800;
+  cursor: pointer;
+  color: #ffb800;
 }
 
 .myaccount:active {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .left-section {
-    background-color: white;
-    display: flex;
-    align-items: center;
-    margin-top: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
 }
 
 .right-section {
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    gap: 15px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  gap: 15px;
 }
 
 .rodape {
-    color: #ffb800;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #ffffff;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.23);
-    box-sizing: border-box;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 15px;
-    position: absolute;
-    width: 100vw;
-    left: 0;
-    bottom: 0;
+  color: #ffb800;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.23);
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  position: absolute;
+  width: 100vw;
+  left: 0;
+  bottom: 0;
 }
 
 .rodapeleft {
-    justify-content: left;
-    font-size: 15px;
-    padding-left: 20px;
+  justify-content: left;
+  font-size: 15px;
+  padding-left: 20px;
 }
 
 .rodaperight {
-    text-align: center; 
-    font-size: 15px;
-    padding-right: 20px;
+  text-align: center; 
+  font-size: 15px;
+  padding-right: 20px;
 }
 
 .rodape2:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .contacts {
-    display: block;
-    text-decoration: none;
-    color: #ffb800;
-    font-size: 15px;
+  display: block;
+  text-decoration: none;
+  color: #ffb800;
+  font-size: 15px;
 }
 
 .contacts:active {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .FAQ {
-    display: block;
-    color: #ffb800;
-    font-size: 15px;
+  display: block;
+  color: #ffb800;
+  font-size: 15px;
 }
 
 .saldo {
-  font-size: 20px;
   background-color: #ffb800;
-  border-radius: 20px;
-  padding: 7px;
-  cursor: pointer;
-  width: 200px;
-  border-radius: 15px;
-  border: none;
+  padding: 10px;
+  border: 0;
+  border-radius: 25px;
+  font-size: 20px;
+  transition: background-color 0.15s opacity 0.15s;
 }
 
 .saldo:hover {
-  opacity: 80%;
-  font-weight: bold;
-  font-family: default;
-  font-size: 19px;
+  background-color: #ffb700d4;
+  cursor: pointer;
+}
+
+.saldo:active {
+  opacity: 0.7;
 }
 
 .bilhete {
-  font-size: 20px;
   background-color: #ffb800;
-  border-radius: 20px;
-  padding: 7px;
-  cursor: pointer;
-  border: none;
-  width: 200px;
-  border-radius: 15px;
+  padding: 10px;
+  border: 0;
+  border-radius: 25px;
+  font-size: 20px;
+  transition: background-color 0.15s opacity 0.15s;
 }
 
 .bilhete:hover {
-  opacity: 80%;
-  font-weight: bold;
-  font-family: default;
-  font-size: 19px;
+  background-color: #ffb700d4;
+  cursor: pointer;
+}
+
+.bilhete:active {
+  opacity: 0.7;
 }
 
 .passe {
-  font-size: 20px;
   background-color: #ffb800;
-  border-radius: 20px;
-  padding: 7px;
-  cursor: pointer;
-  border: none;
-  width: 200px;
-  border-radius: 15px;
+  padding: 10px;
+  border: 0;
+  border-radius: 25px;
+  font-size: 20px;
+  transition: background-color 0.15s opacity 0.15s;
 }
 
-.passe:hover {
-  opacity: 80%;
-  font-weight: bold;
-  font-family: default;
-  font-size: 19px;
+.passe:hover{
+  background-color: #ffb700d4;
+  cursor: pointer;
+}
+
+.passe:active {
+  opacity: 0.7;
 }
 
 .ppasse {
-  font-size: 30px;
-  font-family: default;
-  border-bottom: 0px;
-  margin-bottom: 10px;
+  font-weight: 600;
 
+font-size: 30px;
+font-family: default;
+border-bottom: 0px;
+margin-bottom: 10px;
+
+}
+.ajuda
+{
+  font-weight: 600;
+}
+.online
+{
+  font-weight: 600;
+}
+.recompensas
+{
+  font-weight: 600;
 }
 
 .bilheteira {
-  font-size: 30px;
-  font-family: default;
-  border-bottom: 0px;
-  margin-bottom: 10px;
+  font-weight: 600;
+font-size: 30px;
+font-family: default;
+border-bottom: 0px;
+margin-bottom: 10px;
 }
 
 .carteira {
-  font-size: 30px;
-  font-family: default;
-  border-bottom: 0px;
-  margin-bottom: 10px;
+font-size: 30px;
+font-weight: 600;
+border-bottom: 0px;
+margin-bottom: 10px;
 }
 
 .dados {
-  width: 370px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  width: 800px;
 }
 
 .pontos {
-  width: 370px;
+  margin-bottom: 30px;
+width: 800px;
+  font-size: 20px;
 }
 
 .compras {
-  width: 370px;
+  margin-bottom: 30px;
+width: 800px;
+  font-size: 20px;
 }
 
 .coluna2 {
-  margin-top: 30px;
-  margin-left: 100px;
-  font-size: 16px;
+margin-top: 45px;
+margin-left: 300px;
+font-size: 16px;
 }
 
 .container {
-  display: flex;
+
+
+display: flex;
+}
+.coluna1
+{
+  margin-top: 100px;
+}
+.coluna2
+{
+  margin-top:100px;
+  font-size: 24px;
 }

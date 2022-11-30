@@ -23,7 +23,7 @@
         <div class="content">
             <div class="caixas-de-texto">
                 <fieldset class="checkbox">
-                    <legend>Escolha o(s) transporte(s) que deseja utilizar:</legend>
+                    <legend class="titulo-checkbox-resto">Escolha o(s) transporte(s) que deseja utilizar:</legend>
                     <div>
                       <input type="checkbox" id="scales" name="scales" checked>
                       <label for="scales">Autocarro</label>
@@ -38,27 +38,42 @@
                       </div>
                 </fieldset>
                 <div class="partida">
-                    <label>Local de partida:</label>
-                    <textarea placeholder="Coloque aqui o seu local de partida"></textarea>    
+                    <label class="titulo-checkbox-resto">Local de partida:</label>
+                    <textarea class="caixa-de-texto" placeholder="Coloque aqui o seu local de partida"></textarea>    
                 </div>
                 <div class="chegada">
-                    <label>Local de chegada:</label>
-                    <textarea placeholder="Coloque aqui o seu local de chegada"></textarea> 
+                    <label class="titulo-checkbox-resto">Local de chegada:</label>
+                    <textarea class="caixa-de-texto" placeholder="Coloque aqui o seu local de chegada"></textarea> 
                 </div>   
                 <div class="data">
-                    <p>
+                    <p class="titulo-checkbox-resto">
                         Data de partida:
                     </p> 
-                    <input type="date">   
+                    <input class="caixa-de-texto" type="date">   
                 </div> 
                 <div class="hora">
-                    <p>
+                    <p class="titulo-checkbox-resto">
                         Hora de partida:
                     </p>    
-                    <input type="time" id="appt" name="appt"
+                    <input class="caixa-de-texto" type="time" id="appt" name="appt"
                     min="00:01" max="23:59" required>               
                  </div>
-                 <div class="botao-pesquisar">
+                 <fieldset class="tipos-de-trajetos">
+                    <legend class="titulo-checkbox-resto">Escolha o(s) tipo(s) de trajeto(s) que deseja utilizar:</legend>
+                    <div>
+                      <input type="checkbox" id="scales" name="scales" checked>
+                      <label for="scales">Rápido</label>
+                    </div>
+                    <div>
+                      <input type="checkbox" id="horns" name="horns">
+                      <label for="horns">Económico</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="horns" name="horns">
+                        <label for="horns">Ecológico</label>
+                      </div>
+                </fieldset>
+                <div class="botao-pesquisar">
                     <button class="pesquisar">
                         <p class="pesquisar-palavra">
                             Pesquisar
