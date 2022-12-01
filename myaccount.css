@@ -102,76 +102,228 @@ body {
 }
 
 .conteudo {
-    text-align: center;
-    font-size: 30px;
-    color: white;
     display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: black;
+    text-align: center;
     justify-content: center;
 }
 
-.registo {
-    background-color:limegreen;    
-    margin-top: 50px;
-    margin-right: 50px;
-    margin-left: 50px;
+.registo-myaccount {
+    background-color: white;
+    margin-top: 33px;    
+    margin-left: 18px;
+    margin-right: 10px;
     border-radius: 15px;
-    width: 650px;
-    height: 500px;
+    width: 680px;
+    height: 780px;
 }
 
-.titulo1 {
-    margin-top: 25px;
+.titulo-registo {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 77px;
+    margin-left: 41px;
+    text-align: left;
 }
 
 .nome {
+    display: block;
     font-size: 30px;
-    margin-top: 25px;
-    width: 450px;
-    background-color: limegreen;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 28px;
+    margin-left: 44px;
+    margin-right: 108px;
+    width: 585px;
+    background-color: white;
     border-color: black;
 }
 
 .email {
+    display: block;
     font-size: 30px;
+    font-family: 'Poppins', sans-serif;
     margin-top: 15px;
-    width: 450px;
-    background-color: limegreen;
+    margin-left: 44px;
+    margin-right: 108px;
+    width: 585px;
+    background-color: white;
     border-color: black;
 }
 
 .telemovel {
+    display: block;
     font-size: 30px;
+    font-family: 'Poppins', sans-serif;
     margin-top: 15px;
-    width: 450px;
-    background-color: limegreen;
+    margin-left: 44px;
+    margin-right: 108px;
+    width: 585px;
+    background-color: white;
     border-color: black;
 }
 
 .password {
+    display: block;
     font-size: 30px;
+    font-family: 'Poppins', sans-serif;
     margin-top: 15px;
-    width: 450px;
-    background-color: limegreen;
+    margin-left: 44px;
+    margin-right: 108px;
+    width: 585px;
+    background-color: white;
     border-color: black;
 }
 
-.iniciotexto1 {
+.password-requisitos {
     font-size: 20px;
+    font-weight: 550;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 42px;
 }
 
-.list1 {
-    
+ul {
+    list-style-type: disc;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 60px;
+}
+
+.criar-conta-butao {
+    background-color: #ffb800;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    height: 55px;
+    width: 160px;
+    margin-top: 30px;
+    margin-right: 450px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.23);
+    cursor: pointer;
+    transition: opacity 0.25s;
+}
+
+.criar-conta-butao:hover {
+    opacity: 0.86;
+}
+
+.criar-conta-butao:active {
+    height: 52px;
+    width: 157px;
+    transition: .3s;
 }
 
 .vantagens {
-    background-color:blue;
-    margin-top: 50px;    
-    margin-right: 50px;
-    margin-left: 50px;
+    background-color: white;
+    margin-top: 33px;   
+    margin-left: 80px; 
+    margin-right: 30px;
     border-radius: 15px;
-    width: 650px;
-    height: 500px;
+    width: 680px;
+    height: 780px;
 }
+
+.subtitulo-vantagens-1 {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.subtitulo-vantagens-2 {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #ffb800;
+    text-align: center;
+}
+
+.grid-beneficios-1 {
+    display: grid;
+    margin-top: 25px;
+    grid-template-columns: 340px 340px;
+    grid-template-rows: 315px 315px;
+}
+
+.grid-beneficios-2 {
+    display: grid;
+    grid-template-columns: 680px;
+    grid-template-rows: 315px;
+}
+
+.acesso-mywallet {
+    background-color: #ffb800;
+    border: solid;
+}
+
+.titulo-acesso-mywallet {
+    font-size: 35px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+.texto-acesso-mywallet {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.trajetos {
+    background-color: #ffb800;
+    border-bottom: solid;
+    border-top: solid;
+    border-right: solid;
+}
+
+.titulo-trajetos {
+    font-size: 35px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+.texto-trajetos {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.lista-de-amigos {
+    background-color: #ffb800;
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+}
+
+.titulo-lista-de-amigos {
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+.texto-lista-de-amigos {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
 .rodape {
     color: #ffb800;
     display: flex;
