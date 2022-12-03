@@ -249,6 +249,10 @@ ul {
     margin-left: 25%;
 }
 
+.hyperlink-1 {
+    text-decoration: none;
+}
+
 .titulo-beneficio-1 {
     font-size: 75%;
     font-weight: 500;
@@ -262,7 +266,6 @@ ul {
     margin-left: 7.5%;
     margin-right: 40%;
     text-align: center;
-
 }
 
 .texto-beneficio-1 {
@@ -277,6 +280,10 @@ ul {
     margin-left: 25%;
 }
 
+.hyperlink-2 {
+    text-decoration: none;
+}
+
 .titulo-beneficio-2 {
     font-size: 75%;
     font-weight: 500;
@@ -289,7 +296,7 @@ ul {
     margin-bottom: 1.5%;
     margin-left: 7.5%;
     margin-right: 40%;
-    text-align: center;   
+    text-align: center;
 }
 
 .texto-beneficio-2 {
@@ -304,6 +311,10 @@ ul {
     margin-left: 25%;
 }
 
+.hyperlink-3 {
+    text-decoration: none;
+}
+
 .titulo-beneficio-3 {
     font-size: 75%;
     font-weight: 500;
@@ -312,7 +323,7 @@ ul {
     padding: 10px;
     box-sizing: border-box;
     border-radius: 10px;
-    margin-top: 4%;
+    margin-top: 8%;
     margin-bottom: 1.5%;
     margin-left: 7.5%;
     margin-right: 40%;
