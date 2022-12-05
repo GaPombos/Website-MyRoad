@@ -132,7 +132,7 @@ body {
 }
 
 .titulo1-2 {
-    color: #ffb800;
+    color: hwb(43 0% 0%);
     font-weight: 600;
 }
 
@@ -229,7 +229,7 @@ body {
     font-size: 20px;
     font-weight: 500;
     margin-top: 40px;
-    background-color: #ffb800;
+    background-color: rgba(255, 184, 0, 0.7);
     color: black;
     text-decoration: underline;
     padding: 10px;
@@ -254,7 +254,7 @@ body {
     font-size: 20px;
     font-weight: 500;
     margin-top: 40px;
-    background-color: #ffb800;
+    background-color: rgba(255, 184, 0, 0.7);
     color: black;
     text-decoration: underline;
     padding: 10px;
@@ -280,7 +280,7 @@ body {
     font-size: 20px;
     font-weight: 500;
     margin-top: 40px;
-    background-color: #ffb800;
+    background-color: rgba(255, 184, 0, 0.7);
     color: black;
     text-decoration: underline;
     padding: 10px;

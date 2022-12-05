@@ -10,6 +10,11 @@ body {
     background-color: #fafafa;
 }
 
+.content {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
 .header {
     top: 0;
     left: 0;
@@ -98,6 +103,50 @@ body {
     justify-content: space-between;
     margin-top: 10px;
     gap: 15px;
+}
+
+.titulo-contactos{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    color: #ffb800;
+}
+
+.linha1 {
+    display: flex;
+    gap: 450px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.mail-pic{
+    width: 40px;
+}
+
+.phone-pic{
+    width: 40px;
+}
+
+.linha2 {
+    display: flex;
+    gap: 390px;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 200px;
+
+}
+
+.linkin-pic{
+    width: 40px;
+}
+
+.facebook-pic{
+    width: 40px;
+}
+
+.insta-pic{
+    width: 40px;
 }
 
 .rodape {
