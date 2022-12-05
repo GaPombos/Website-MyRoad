@@ -117,6 +117,7 @@ body {
     display: flex;
     gap: 450px;
     text-align: center;
+    justify-content: center;
     margin-bottom: 50px;
 }
 
@@ -124,29 +125,48 @@ body {
     width: 40px;
 }
 
+.mail-pic:hover {
+    cursor: pointer;
+}
+
 .phone-pic{
     width: 40px;
 }
 
+.phone-pic:hover {
+    cursor: pointer;
+}
+
 .linha2 {
     display: flex;
-    gap: 390px;
+    gap: 450px;
     text-align: center;
+    justify-content: center;
     padding-top: 40px;
-    padding-left: 200px;
-
 }
 
 .linkin-pic{
     width: 40px;
 }
 
+.linkin-pic:hover {
+    cursor: pointer;
+}
+
 .facebook-pic{
     width: 40px;
 }
 
+.facebook-pic:hover {
+    cursor: pointer;
+}
+
 .insta-pic{
     width: 40px;
+}
+
+.insta-pic:hover {
+    cursor: pointer;
 }
 
 .rodape {
