@@ -115,6 +115,7 @@ body {
 .checkbox {
     width: 100%;
     margin-bottom: 30px;
+    padding: 20px;
 }
 
 .titulo-checkbox-resto {
@@ -156,9 +157,10 @@ body {
     margin-bottom: 30px;
 }
 
-.tipos-de-trajeto {
+.tipos-de-trajetos {
     width: 100%;
     margin-bottom: 50px;
+    padding: 20px;
 }
 
 .botao-pesquisar {
