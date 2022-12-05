@@ -205,7 +205,7 @@ ul {
     margin-right: 65%;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.23);
     cursor: pointer;
-    transition: opacity 0.25s;
+    transition: opacity .25s;
 }
 
 .criar-conta-butao:hover {
@@ -266,6 +266,12 @@ ul {
     margin-left: 7.5%;
     margin-right: 40%;
     text-align: center;
+    cursor: pointer;
+    transition: opacity 0.25s;
+}
+
+.titulo-beneficio-1:hover {
+    opacity: 0.86;
 }
 
 .texto-beneficio-1 {
@@ -297,6 +303,12 @@ ul {
     margin-left: 7.5%;
     margin-right: 40%;
     text-align: center;
+    cursor: pointer;
+    transition: opacity 0.25s;
+}
+
+.titulo-beneficio-2:hover {
+    opacity: 0.86;
 }
 
 .texto-beneficio-2 {
@@ -328,6 +340,12 @@ ul {
     margin-left: 7.5%;
     margin-right: 40%;
     text-align: center;   
+    cursor: pointer;
+    transition: opacity 0.25s;
+}
+
+.titulo-beneficio-3:hover {
+    opacity: 0.86;
 }
 
 .texto-beneficio-3 {
