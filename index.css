@@ -338,6 +338,11 @@ body {
     padding-bottom: 20px;
 }
 
+.nome {
+    font-weight: 500;
+    color: #ffb800;
+}
+
 .rodape {
     color: #ffb800;
     display: flex;
